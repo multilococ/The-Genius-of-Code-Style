@@ -12,7 +12,7 @@ public class Weapon : MonoBehaviour
 
     private Transform _target;
 
-    void Start()
+    private void Start()
     {
         if (_target != null)
             StartCoroutine(Shoot(_shootingDelay));
